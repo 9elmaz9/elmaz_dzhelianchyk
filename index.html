@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="ED">
+    <title>Elmaz Dzhelianchik Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/elmaz.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+    <!--  eto bil component -->
+    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
+<!-- old-->
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+            <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/elmaz-dzhelianchyk/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a class="social-link text-light" href="https://github.com/9elmaz9"><i class="ti-github" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-face-smile" aria-hidden="true"></i></a></li> 
+        </ul>
+
+<!--VAR1-->
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <br>
+                <h1 class="header-title">Elmaz Dzhelianchyk</h1>
+              <!--  <h6 class="header-mono" >Back end   Developer</h6>
+                <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>    -->
+                
+<!-- -->
+    <div class="typed-text-output d-inline font-weight-lighter text-white"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- 
+    <button class="btn btn-primary btn-rounded">
+        <a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download style="color: white; text-decoration: none;">
+            <i class="ti-download pr-2"></i>Download CV
+        </a>
+    </button>   -->
+    <button class="btn btn-primary btn-rounded">
+        <a href="https://elmaz-dzhelianchyk-cv.tiiny.site/" target="_blank" rel="noreferrer" style="color: white; text-decoration: none;">
+            <i class="ti-download pr-2"></i>Open CV
+        </a>
+    </button>
+    
+      
+
+    
+  
+
+    <!-- 
+    <button class="btn btn-primary btn-rounded"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download CV</button>
+
+    <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>
+
+            </div>
+            <script>
+                function printResume(){
+                    window.print();
+                }
+            </script>
+
+        -->
+
+<!-- VAR2  link  canva- withouth print 
+<div class="header-content">
+    <h4 class="header-subtitle">Hello, I am</h4>
+    <h1 class="header-title">Elmaz Dzhelianchyk</h1>
+    <h6 class="header-mono">Back end Developer</h6>
+    <button class="btn btn-primary btn-rounded" onclick="openResume()"><i class="ti-printer pr-2"></i>Print Resume</button>
+</div>
+
+<script>
+    function openResume() {
+        window.open("https://www.canva.com/design/DAF2_21Vllk/H6fu3NURp0FF-_wIMVoFAQ/view?utm_content=DAF2_21Vllk&utm_campaign=designshare&utm_medium=link&utm_source=editor", "_blank");
+    }
+</script>
+
+-->
+
+
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                   
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Elmaz Dzhelianchyk</h5>
+                        <div class="brand-subtitle">Java  Developer</div>
+                    </li>
+                    <li class="brand-img-container">
+                        <img src="assets/imgs/avatar.jpg" alt="" class="brand-img" id="avatar-img">
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Interests</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="modal-container" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="Modal Image">
+        </div>
+    </div>
+    <style>
+        /* CSS-стили для модального окна */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 50%; /* Округление краев */
+            overflow: hidden; /* Скрыть выступающие части изображения */
+        }
+
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            border-radius: 50%; /* Округление краев */
+        }
+
+        .close {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Добавление стилей для круглого изображения в навигационной панели */
+        .brand-img {
+            border-radius: 50%; /* Округление краев */
+        }
+
+        .brand-img-container {
+            overflow: hidden; /* Скрыть выступающие части изображения */
+        }
+    </style>
+
+    <!-- JavaScript для открытия и закрытия модального окна -->
+    <script>
+        // Получение элементов DOM
+        var modal = document.getElementById("modal-container");
+        var modalImg = document.getElementById("modal-img");
+        var avatarImg = document.getElementById("avatar-img");
+        var closeButton = document.getElementsByClassName("close")[0];
+
+        // Открытие модального окна и установка изображения
+        avatarImg.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+        }
+
+        // Закрытие модального окна при клике на кнопку "close"
+        closeButton.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Закрытие модального окна при клике вне его области
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Java Backend Developer</h5>
+                <p class="mt-20">Welcome to my digital realm! Greetings from our beautiful planet! I'm a Java backend developer, passionately crafting digital solutions at the intersection of code and creativity. With a love for art and a knack for management, I bring a unique blend of technical expertise and aesthetic sensibility to every project.</p>
+                <p class="mt-20">Originally from Ukraine, I relocated to Belgium just two years ago. My professional journey spans over 8 years in management, complemented by a bachelor's degree in hotel and restaurant management. I take great pride in my past experiences, as they provide a solid foundation for my future endeavors. My passion for technology and my ambition for professional growth in the realm of software development have led me to focus on Java and embark on this journey in the field.</p>
+                <p class="mt-20">Join me as we explore the artistry of backend development together!</p>
+                <button class="btn btn-outline-danger"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download My CV</button>
+            </div>
+
+
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 09/09/1995</li>
+                    <li><span>Email</span> : dzhelianchykelmaz@gmail.com</li>
+                    <li><span>Phone</span> : + 32 479 40 88 96</li>
+                    <li><span>Skype</span> : Elmaz Dzhelianchyk </li>
+                    <li><span>Address</span> :  9700  Belgium</li>
+                </ul>
+
+                
+                <ul class="social-icons pt-3">
+                   <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
+    
+                   <li class="social-item"><a class="social-link text-primary" href="https://www.linkedin.com/in/elmaz-dzhelianchyk/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>  <!-- add linkedin here -->
+                    <li class="social-item"><a class="social-link text-primary" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link text-primary" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link text-primary" href="https://www.linkedin.com/in/elmaz-dzhelianchyk/"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+
+
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+            <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web Development</h6>With extensive experience in Java backend development, I specialize in building robust, scalable, and efficient backend systems that power complex web applications.
+                        <p class="subtitle"></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Management</h6> 
+                        <p class="subtitle">I have a proven track record of successfully managing projects from inception to delivery, ensuring timely completion and client satisfaction through effective communication and strategic planning.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Artistic Vision</h6>
+                        <p class="subtitle">Combining my technical expertise with a passion for art, I bring a unique creative perspective to every project, ensuring that functionality seamlessly integrates with aesthetics.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                  
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+                            <h6 class="title text-danger">2023 - Present</h6>
+                            <P>ASPIRING JAVA DEVELOPER </P>
+                            <P class="subtitle">Currently immersed in Java education, expanding my skills to excel in software development. Passionate about continuous learning and eager to leverage new knowledge to contribute effectively in the tech industry.</P>
+                            <hr>
+                            <!-- 
+                            <h6 class="title text-danger">2016 - 2017</h6>
+                            <P>Front-end Developer</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <hr>-->
+                            <h6 class="title text-danger">2014 - 2022</h6>
+                            <P>RESTAURANT & HOSPITALITY MANAGER</P>
+                            <P class="subtitle">Experienced restaurant and hospitality manager with an 8-year track record of excellence. Skilled in operations, staff coordination, and customer satisfaction. Known for orchestrating successful restaurant launches and driving top rankings in competitive markets.</P>
+                            <!-- Under my leadership, teams consistently upheld high service standards, fostering customer satisfaction. Through proactive personnel management, I promoted effective teamwork and employee motivation.-->
+                                <P class="subtitle">Under my leadership, teams effectively operated in the service industry, ensuring a high level of service quality and customer satisfaction. I actively engaged in developing personnel management strategies, ensuring effective teamwork and employee motivation.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div> 
+                        <div class="card-body">
+                            <h6 class="title text-danger">2023 - Present</h6>
+                            <P>INTEC BRUSSEL </P>   <!-- here write anout spesialictic moment too -->
+                            <P>Java EE Developer </P> 
+                            <P class="subtitle">Currently enrolled in an intensive program focused on Java EE development, gaining hands-on experience in building robust enterprise applications and mastering advanced Java concepts.</P>
+                            <hr>
+                            <!--
+                            <h6 class="title text-danger">2016 - 2017</h6>
+                            <P>Diploma in Computer Engineering</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</P>
+                            <hr> -->
+
+                            <!-- HERE WRITE NAME UNIVERSITY AND WHAT KIND SPESSIALISH YOU ARE with skils short  -->
+                            <h6 class="title text-danger">2012-2016</h6>
+                            <P> TRADE AND ECONOMICS UNIVERSITY . Crimea, Ukraine</P>
+                            <P>Bachelor of Science in Hotel and Restaurant Management</P>
+                            <P class="subtitle">Graduated with a professional bachelor's degree, specializing in hotel and restaurant management. Developed strong leadership and organizational skills, with a focus on delivering exceptional guest experiences and driving operational excellence within the hospitality industry.</P>
+
+
+            
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Spring Framework</h6>
+                            <div class="progress mb-3">
+                              <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--<h6>Hibernate</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> -->
+                            <h6>JavaScript </h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Structured Query Language</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+        
+                            <h6>HTML/CSS </h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> 
+                            <br>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Dutch</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Ukrainian</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Russian</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- блок с прикольными встаками -->
+    <section class="section bg-dark text-center">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="row">
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                    </div>
+                    <div class="col-7 text-left py-3">
+                        <h3 class="text-danger font-weight-bold font40">245 448</h3>
+                        <p class="text-light mb-1">Hours of Continuing Learning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="row">
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                    </div>
+                    <div class="col-7 text-left py-3">
+                        <h1 class="text-danger font-weight-bold font-size-40">404</h1>
+                        <p class="text-light mb-1">Page Not Found... but I'll Debug It!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="row">
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                    </div>
+                    <div class="col-7 text-left py-3">
+                        <h1 class="text-danger font-weight-bold font40">1M</h1>
+                        <p class="text-light mb-1">Lines of Code Written</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="row">
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                    </div>
+                    <div class="col-7 text-left py-3">
+                        <h1 class="text-danger font-weight-bold font40">2k</h1>
+                        <p class="text-light mb-1">Coffee Drunk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       
+
+     <!-- Portfolio Section -->
+     <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Projects
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Java
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        JavaScript
+                    </a>
+                    <a href="#" data-filter=".web">
+                        HTML
+                    </a>
+                </div>
+
+                <!-- succesful case -->
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HTML</h6>
+                                    <p class="subtitle">AquaAlert</p>
+                                <div class="github-link">
+                                   
+                                  <a href="https://github.com/9elmaz9/AquaAlert" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                              </div>
+                            </div>   
+                        </div>             
+                    </div>
+                </div>
+                <style>
+                    .github-link a {
+                        font-size: 50px; /* установите желаемый размер шрифта */
+                        color: white; /* установите желаемый цвет ссылки */
+                    }
+                </style>
+        <!-- 2 -->
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HTML</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/AnimalShelter" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">ANIMAL_SHELTER</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/ANIMAL_SHELTER" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+
+                    <!-- 4 -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HTML</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/AnimalShelter" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <!-- 5-->
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">BibliotheekSysteem</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/BibliotheekSysteem" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <!-- 6 -->
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HTML</h6>
+                                    <p class="subtitle">CryptoKey</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/CryptoKey-Secure-Password-Creator" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                 <!-- 7 -->
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">MOVIE</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/MovieProject" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <!-- 8 -->
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">STUDENT</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/StudentJPA_TEST" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- 9 -->
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">JS</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/AnimalShelter" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+
+                <!-- 10 -->
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">JS</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/AnimalShelter" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                   <!-- 11 -->
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">JS</h6>
+                                    <p class="subtitle">Art-FLow</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/Art-FLow" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <!-- 12 -->
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">JS</h6>
+                                    <p class="subtitle">DAD-JOKES</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/DAD-JOKES" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <!-- 13 -->
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">JS</h6>
+                                    <p class="subtitle">AquaAlert</p>
+                                    <div class="github-link">
+                                   
+                                        <a href="https://github.com/9elmaz9/AquaAlert" target="_blank" class="btn btn-outline-danger">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Current <span class="text-danger">Interests</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Health and Self-Confidence</h6>
+                        <p class="post-details">
+                            <a href="#"></a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>                       
+                       <p>Sport is not just fun; it's a powerful tool for maintaining health and fitness. Regular workouts strengthen the heart, improve endurance, and enhance mood through the release of endorphins – the happiness hormones. Additionally, sports teach discipline and self-control, foster team spirit, and help develop social skills. Incorporate sports into your life, and you'll feel how both your physical and moral well-being grow.</p>
+<!--
+                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
+                    -->
+                        <a href="https://greatist.com/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>                                
+
+<!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
+        
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">The Impact of Volunteerism: Building a Better World</h6>
+                        <p class="post-details">
+                        <!--     <a href="#">By: Admin</a>--> 
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        <p>Volunteering is a powerful way to give back and make a difference. Whether it's helping at a local shelter or tutoring kids, it's a win-win. You'll feel good knowing you're helping others, plus gain skills and connections. And by volunteering, you're part of something bigger – working together for positive change. Join in and be part of building a brighter future for everyone.</p>
+                        <a href="https://www.vrijwilligerswerk.be/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+
+<!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
+
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Inspiration in Creation</h4>
+                        <p class="post-details">
+                       <!--     <a href="#">By: Admin</a> -->
+                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        <p>Art, whether in galleries or through personal practice, is a journey of discovery and connection. Visiting exhibitions exposes us to diverse perspectives, sparking inspiration and empathy. Meanwhile, creating art provides a therapeutic outlet for self-expression and creativity. Whether admiring masterpieces or creating your own, embrace art's transformative power to enrich your life.</p>
+                        <a href="https://www.juxtapoz.com/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+  
+
+    <div class="section contact" id="contact" style="background-image: url(headerr.jpg)">
+        <div class="container">
+            <div class="row">
+
+                
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Contact me</h4>
+                        <form id="contact-form" action="https://formspree.io/f/xeqyngpy" method="POST">
+                            <div class="form-group">
+                                <input name="name" class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input name="_replyto" class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                        <div id="success-message" style="display: none;">Your message has been sent successfully!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            document.getElementById("contact-form").addEventListener("submit", function(event) {
+                event.preventDefault();
+                var formData = new FormData(this);
+        
+                fetch(this.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById("success-message").style.display = "block";
+                        this.reset();
+                        setTimeout(function() {
+                            document.getElementById("success-message").style.display = "none";
+                        }, 5000); // Скрыть сообщение через 5 секунд
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            });
+        </script>
+
+<!--
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ 32 479 40 88 96 </span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Oudenaarde :<br> <span class="text-muted">9700 Belgium</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">dzhelianchykelmaz@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+       -->
+      
+      
+
+       <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">ED</span></a>
+            </p>
+        </div>
+    </footer>
+
+    <style>
+
+
+        @media only screen and (max-width: 768px) {
+            .header .header-content h1 {
+                font-size: 36px;
+            }
+
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item {
+                margin-bottom: 10px;
+            }
+
+            .about-card {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .header .header-content h1 {
+                font-size: 24px;
+            }
+
+            .navbar-nav {
+                display: block;
+            }
+
+            .navbar-nav .nav-item {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+
+
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    
+    <!-- ED js -->
+    <script src="assets/js/elmaz.js"></script>
+
+</body>
+</html>
