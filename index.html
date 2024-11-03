@@ -29,6 +29,18 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <br>
                 <h1 class="header-title">Elmaz Dzhelianchyk</h1>
+                <style>
+                    .header-title {
+                      font-size: 5vw; /* Размер шрифта будет пропорционален ширине экрана */
+                      
+                    }
+                  
+                    @media (max-width: 600px) {
+                      .header-title {
+                        font-size: 6vw; /* Дополнительная настройка для мобильных устройств */
+                      }
+                    }
+                  </style>
               <!--  <h6 class="header-mono" >Back end   Developer</h6>
                 <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>    -->
                 
@@ -223,10 +235,17 @@
                 <h3 class="font-weight-light">Who am I ?</h3>
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Java Backend Developer</h5>
-                <p class="mt-20">Welcome to my digital realm! Greetings from our beautiful planet! I'm a Java backend developer, passionately crafting digital solutions at the intersection of code and creativity. With a love for art and a knack for management, I bring a unique blend of technical expertise and aesthetic sensibility to every project.</p>
-                <p class="mt-20">Originally from Ukraine, I relocated to Belgium just two years ago. My professional journey spans over 8 years in management, complemented by a bachelor's degree in hotel and restaurant management. I take great pride in my past experiences, as they provide a solid foundation for my future endeavors. My passion for technology and my ambition for professional growth in the realm of software development have led me to focus on Java and embark on this journey in the field.</p>
-                <p class="mt-20">Join me as we explore the artistry of backend development together!</p>
-                <button class="btn btn-outline-danger"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download My CV</button>
+                <p class="mt-20">Welcome to my digital realm! I'm a Java Backend Developer who combines technical precision with creative vision. Originally from Ukraine and now based in Belgium, I bring a unique perspective shaped by my journey from management to software development.</p>
+                <p class="mt-20">Think of me as a tech enthusiast with an artist's eye and a manager's mind. This diverse background isn't just my history – it's my superpower, enabling me to see solutions where others might see obstacles. Every project is an opportunity to blend analytical thinking with creative problem-solving.</p>
+                <p class="mt-20">Like code that evolves and improves with each iteration, I'm constantly seeking ways to enhance my skills and knowledge. My path is clear: mastering backend development while actively expanding into full-stack territory. It's not just a goal – it's my natural progression in this dynamic field.</p>
+                <p class="mt-20">Let's create something amazing together! Whether it's building robust backend systems or innovative solutions, I'm ready to transform ideas into efficient, elegant code that makes a difference!</p>
+
+           <!-- <button class="btn btn-outline-danger"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download My CV</button>  -->     
+
+                    <button class="btn btn-outline-danger">
+                        <a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download style="text-decoration: none; color: inherit;">Download My CV</a>
+                      </button>
+                      
             </div>
 
 
@@ -239,6 +258,10 @@
                     <li><span>Phone</span> : + 32 479 40 88 96</li>
                     <li><span>Skype</span> : Elmaz Dzhelianchyk </li>
                     <li><span>Address</span> :  9700  Belgium</li>
+                    <li><span>Linkedin</span> :  </li>
+                    <li><span>github</span> :  </li>
+
+
                 </ul>
 
                 
@@ -259,8 +282,8 @@
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Web Development</h6>With extensive experience in Java backend development, I specialize in building robust, scalable, and efficient backend systems that power complex web applications.
-                        <p class="subtitle"></p>
+                        <h6>Web Development</h6>
+                        <p class="subtitle">In the realm of software development, I excel at crafting robust Java backend solutions while actively growing into frontend technologies. My foundation combines solid Java principles, Spring Framework expertise, and confident navigation of RESTful APIs and SQL databases. Clean code and thorough testing aren't just practices – they're my standards. As I bridge the gap between backend mastery and frontend exploration, I bring a commitment to performance and quality across the full development stack.</p>
                         <hr>
                     </div>
                 </div>
@@ -305,7 +328,7 @@
 
                             <h6 class="title text-danger">2023 - Present</h6>
                             <P>ASPIRING JAVA DEVELOPER </P>
-                            <P class="subtitle">Currently immersed in Java education, expanding my skills to excel in software development. Passionate about continuous learning and eager to leverage new knowledge to contribute effectively in the tech industry.</P>
+                            <P class="subtitle"> Currently fully immersed in Java development, advancing my skills through hands-on projects and continuous learning. I am working on building robust applications using technologies such as Spring Boot and RESTful services. This active engagement is expanding my expertise in back-end development, problem-solving, and application design, allowing me to contribute effectively to the tech industry. I am motivated by my passion for continuous learning and committed to staying at the forefront of modern software development.</P>
                             <hr>
                             <!-- 
                             <h6 class="title text-danger">2016 - 2017</h6>
@@ -313,11 +336,12 @@
                             <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
                             <hr>-->
                             <h6 class="title text-danger">2014 - 2022</h6>
-                            <P>RESTAURANT & HOSPITALITY MANAGER</P>
-                            <P class="subtitle">Experienced restaurant and hospitality manager with an 8-year track record of excellence. Skilled in operations, staff coordination, and customer satisfaction. Known for orchestrating successful restaurant launches and driving top rankings in competitive markets.</P>
-                            <!-- Under my leadership, teams consistently upheld high service standards, fostering customer satisfaction. Through proactive personnel management, I promoted effective teamwork and employee motivation.-->
+                            <P>DIRECTOR OF OPERATIONS MANAGEMENT</P>
+                            <P class="subtitle">Experienced leader in the restaurant and hospitality industry with 8 years of expertise in operations management. Successfully led teams, launched new establishments, including the most recent one ranked in the top 20 best restaurants in Kyiv, Ukraine, and achieved high customer satisfaction. Skilled in staff coordination, workflow optimization, and strategic planning to drive operational excellence.</P>
+                            <!-- Under my leadership, teams consistently upheld high service standards, fostering customer satisfaction. Through proactive personnel management, I promoted effective teamwork and employee motivation.
                                 <P class="subtitle">Under my leadership, teams effectively operated in the service industry, ensuring a high level of service quality and customer satisfaction. I actively engaged in developing personnel management strategies, ensuring effective teamwork and employee motivation.</P>
-                        </div>
+                        -->
+                            </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -329,10 +353,10 @@
                             </div>
                         </div> 
                         <div class="card-body">
-                            <h6 class="title text-danger">2023 - Present</h6>
+                            <h6 class="title text-danger">2023 - September 2024</h6>
                             <P>INTEC BRUSSEL </P>   <!-- here write anout spesialictic moment too -->
                             <P>Java EE Developer </P> 
-                            <P class="subtitle">Currently enrolled in an intensive program focused on Java EE development, gaining hands-on experience in building robust enterprise applications and mastering advanced Java concepts.</P>
+                            <P class="subtitle">Completed an intensive program focused on advanced Java EE development, gaining practical experience in building scalable enterprise applications. The course covered key technologies like Spring Framework and involved collaborative projects, enhancing my teamwork and problem-solving skills. This training solidified my expertise in Java development and prepared me for real-world challenges.</P>
                             <hr>
                             <!--
                             <h6 class="title text-danger">2016 - 2017</h6>
@@ -363,28 +387,34 @@
                         <div class="card-body pb-2">
                            <h6>Java</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Spring Framework</h6>
                             <div class="progress mb-3">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <!--<h6>Hibernate</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div> -->
-                            <h6>JavaScript </h6>
+                            <h6>RESTful API Design</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Structured Query Language</h6>
+                            <h6>Database Management</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
         
-                            <h6>HTML/CSS </h6>
+                            <h6>Unit Testing</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> 
+                            <br>
+
+                            <h6>Agile Methodologies</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div> 
                             <br>
                         
@@ -407,14 +437,12 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width:70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Ukrainian</h6>
+                            <h6>
+                                Crimean Tatar/ Ukrainian/ Russian/</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Russian</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            
                             <br>
                         </div>
                     </div>
@@ -485,16 +513,16 @@
             <div class="portfolio">
                 <div class="filters">
                     <a href="#" data-filter=".new" class="active">
-                        Projects
+                       All Projects
                     </a>
                     <a href="#" data-filter=".advertising">
-                        Java
+                        Core Java
                     </a>
                     <a href="#" data-filter=".branding">
-                        JavaScript
+                        Web Applications
                     </a>
                     <a href="#" data-filter=".web">
-                        HTML
+                        Data Management
                     </a>
                 </div>
 
