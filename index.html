@@ -274,13 +274,14 @@
             }
             </script>
             
-            <a href="#" class="btn btn-outline-danger" onclick="DownloadPDF('CV_ELMAZ_DZHELIANCHYK.pdf')">
+            <a href="#" class="btn btn-outline-danger" onclick="openAndDownloadPDF('CV_ELMAZ_DZHELIANCHYK.pdf')">
                 Open and Download My CV
             </a>
             
             <script>
-            function DownloadPDF(url) {
+            function openAndDownloadPDF(url) {
                 // Открывает файл в новой вкладке
+                window.open(url, '_blank');
             
                 // Инициирует скачивание
                 const link = document.createElement('a');
