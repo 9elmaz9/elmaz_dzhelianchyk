@@ -20,6 +20,7 @@ typeText();
 
 
 
+
 /*
 $(document).ready(function(){
   // При нажатии на кнопку "Подробнее"
