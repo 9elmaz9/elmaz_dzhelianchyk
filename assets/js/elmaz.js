@@ -6,7 +6,7 @@ function typeText() {
     if (index < textToType.length) {
         typedText.textContent += textToType[index];
         index++;
-        setTimeout(typeText, 80); // Adjust the timeout as needed
+        setTimeout(typeText, 100); // Adjust the timeout as needed
     }
 }
 
