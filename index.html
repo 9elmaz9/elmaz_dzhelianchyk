@@ -243,12 +243,25 @@
 
            <!-- <button class="btn btn-outline-danger"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download My CV</button>  -->     
 
-           
+           <!-- its all works  <a href="/CV_Elmaz_Dzhelianchyk.pdf" download style="text-decoration: none; color: inherit;">
+                <button class="btn btn-outline-danger">
+                  Download My CV
+                </button>
+              </a>
+              
+              <a href="CV_Elmaz_Dzhelianchyk.pdf" download>
+                <button class="btn btn-outline-danger">Download My CV</button>
+              </a>
+              
+              <a href="CV_Elmaz_Dzhelianchyk.pdf" download class="btn btn-outline-danger">
+                Download My CV
+              </a>
+
+               -->
 
               <a href="CV_Elmaz_Dzhelianchyk.pdf" download class="btn btn-outline-danger" onclick="event.preventDefault(); downloadPDF('CV_Elmaz_Dzhelianchyk.pdf')">
                 Download My CV
             </a>
-            
             <script>
             function downloadPDF(url) {
                 const link = document.createElement('a');
@@ -260,7 +273,25 @@
             }
             </script>
             
-              
+            <a href="#" class="btn btn-outline-danger" onclick="openAndDownloadPDF('CV_Elmaz_Dzhelianchyk.pdf')">
+                Open and Download My CV
+            </a>
+            
+            <script>
+            function openAndDownloadPDF(url) {
+                // Открывает файл в новой вкладке
+                window.open(url, '_blank');
+            
+                // Инициирует скачивание
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = url.split('/').pop(); // Устанавливает имя файла
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+            </script>
+            
 
 
               <!--  its work
