@@ -49,19 +49,34 @@
                   </style>
               <!--  <h6 class="header-mono" >Back end   Developer</h6>
                 <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>    -->
-             
                 <style>
+
+                .typed-text-output {
+                    font-size: 5vw; /* Базовый адаптивный размер */
+                    font-family: Arial, sans-serif;
+                    font-weight: bold;
+                    color: #333;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+                
+                /* Для устройств с маленьким экраном */
+                @media (max-width: 768px) {
                     .typed-text-output {
-                        font-size: 5vw; /* Адаптивный размер шрифта: 5% от ширины экрана */
-                        font-family: Arial, sans-serif;
-                        font-weight: bold;
-                        color: #333;
-                        text-align: center; /* Центрирование текста */
-                        white-space: nowrap; /* Запрет на перенос текста на другую строку */
+                        font-size: 8vw; /* Увеличиваем размер текста для телефонов */
                     }
-                </style>
+                }
+                
+                /* Для очень маленьких экранов, например, 480px */
+                @media (max-width: 480px) {
+                    .typed-text-output {
+                        font-size: 10vw; /* Ещё больше увеличиваем размер текста для очень маленьких экранов */
+                    }
+                }
                 
                 
+            </style>
+
 
 
 
