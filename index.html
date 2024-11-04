@@ -256,9 +256,20 @@
                 Download My CV
               </a>
 
-              <a href="https://9elmaz9.github.io/elmaz_dzhelianchyk/CV_Elmaz_Dzhelianchyk.pdf" download="CV_Elmaz_Dzhelianchyk.pdf">
+              <a href="CV_Elmaz_Dzhelianchyk.pdf" download class="btn btn-outline-danger" onclick="event.preventDefault(); downloadPDF('CV_Elmaz_Dzhelianchyk.pdf')">
                 Download My CV
             </a>
+            
+            <script>
+            function downloadPDF(url) {
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = url.split('/').pop(); // Устанавливает имя файла на основе URL
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+            </script>
             
               
 
