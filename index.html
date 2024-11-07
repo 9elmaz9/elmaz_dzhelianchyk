@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="ED">
     <title>Elmaz Dzhelianchik Landing page | Free Bootstrap 4.3.x landing page</title>
-    <!-- font icons -->
+
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<link rel="stylesheet" href="assets/css/elmaz.css">
@@ -16,19 +16,15 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
 
-    <!--  eto bil component -->
-    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
-<!-- old-->
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
             <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/elmaz-dzhelianchyk/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
             <li class="social-item"><a class="social-link text-light" href="https://github.com/9elmaz9"><i class="ti-github" aria-hidden="true"></i></a></li>
             <li class="social-item"><a class="social-link text-light" href="https://discord.com/users/1297690035763544114"><i class="fab fa-discord" aria-hidden="true"></i></a></li>
-        </ul>
+            </ul>
 
-<!--VAR1-->
-            <div class="header-content">
+        <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <br>
                 <h1 class="header-title">Elmaz  </h1>
@@ -37,23 +33,8 @@
 
 
                 <style>
-                    .header-title {
-                      font-size: 3vw; /* Размер шрифта будет пропорционален ширине экрана */
-                      
-                    }
-                  
-                    @media (max-width: 600px) {
-                      .header-title {
-                        font-size: 6vw; /* Дополнительная настройка для мобильных устройств */
-                      }
-                    }
-                  </style>
-              <!--  <h6 class="header-mono" >Back end   Developer</h6>
-                <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>    -->
-                <style>
-
                 .typed-text-output {
-                    font-size: 5vw; /* Базовый адаптивный размер */
+                    font-size: 5vw; /*base adaptive  */
                     font-family: Arial, sans-serif;
                     font-weight: bold;
                     color: #333;
@@ -61,78 +42,33 @@
                     white-space: nowrap;
                 }
                 
-                /* Для устройств с маленьким экраном */
+                /* mini */
                 @media (max-width: 768px) {
                     .typed-text-output {
-                        font-size: 10vw; /* Увеличиваем размер текста для телефонов */
+                        font-size: 10vw; 
                     }
                 }
                 
-                /* Для очень маленьких экранов, например, 480px */
+                /* extra mini 480px */
                 @media (max-width: 480px) {
                     .typed-text-output {
-                        font-size: 10vw; /* Ещё больше увеличиваем размер текста для очень маленьких экранов */
+                        font-size: 10vw; 
                     }
                 }
-                
-                
             </style>
 
-
-
-
-<!-- -->
     <div class="typed-text-output d-inline font-weight-lighter text-white"></div>
     <br>
     <br>
-
-    <!-- 
-    <button class="btn btn-primary btn-rounded">
-        <a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download style="color: white; text-decoration: none;">
-            <i class="ti-download pr-2"></i>Download CV
-        </a>
-    </button>   -->
     <button class="btn btn-primary btn-rounded">
         <a href="https://elmaz-dzhelianchyk-cv.tiiny.site/" target="_blank" rel="noreferrer" style="color: white; text-decoration: none;">
             <i class="ti-download pr-2"></i>Open CV
         </a>
     </button>
-
-   
-
-    <!-- 
-    <button class="btn btn-primary btn-rounded"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download CV</button>
-
-    <button class="btn btn-primary btn-rounded" onclick="printResume()"><i class="ti-printer pr-2"></i>Print Resume</button>
-
-            </div>
-            <script>
-                function printResume(){
-                    window.print();
-                }
-            </script>
-
-        -->
-
-<!-- VAR2  link  canva- withouth print 
-<div class="header-content">
-    <h4 class="header-subtitle">Hello, I am</h4>
-    <h1 class="header-title">Elmaz Dzhelianchyk</h1>
-    <h6 class="header-mono">Back end Developer</h6>
-    <button class="btn btn-primary btn-rounded" onclick="openResume()"><i class="ti-printer pr-2"></i>Print Resume</button>
-</div>
-
-<script>
-    function openResume() {
-        window.open("https://www.canva.com/design/DAF2_21Vllk/H6fu3NURp0FF-_wIMVoFAQ/view?utm_content=DAF2_21Vllk&utm_campaign=designshare&utm_medium=link&utm_source=editor", "_blank");
-    }
-</script>
-
--->
-
-
         </div>
     </header>
+
+    <!-- -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,7 +97,6 @@
                     </li>
                 </ul>
 
-
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portfolio</a>
@@ -181,9 +116,9 @@
             <span class="close">&times;</span>
             <img id="modal-img" src="" alt="Modal Image">
         </div>
-    </div>
+   
     <style>
-        /* CSS-стили для модального окна */
+        /* круглое фото  */
         .modal {
             display: none;
             position: fixed;
@@ -201,8 +136,8 @@
             display: block;
             width: 80%;
             max-width: 800px;
-            border-radius: 50%; /* Округление краев */
-            overflow: hidden; /* Скрыть выступающие части изображения */
+            border-radius: 50%; 
+            overflow: hidden; /* вышк круг , это прячем края */
         }
 
         .modal-content img {
@@ -210,7 +145,7 @@
             height: auto;
             display: block;
             margin: auto;
-            border-radius: 50%; /* Округление краев */
+            border-radius: 50%; 
         }
 
         .close {
@@ -223,17 +158,17 @@
             cursor: pointer;
         }
 
-        /* Добавление стилей для круглого изображения в навигационной панели */
+        /* тож для круга */
         .brand-img {
-            border-radius: 50%; /* Округление краев */
+            border-radius: 50%; 
         }
 
         .brand-img-container {
-            overflow: hidden; /* Скрыть выступающие части изображения */
+            overflow: hidden; 
         }
     </style>
 
-    <!-- JavaScript для открытия и закрытия модального окна -->
+    <!-- JavaScript нажатие на фото =это модальное окно -->
     <script>
         // Получение элементов DOM
         var modal = document.getElementById("modal-container");
@@ -241,24 +176,26 @@
         var avatarImg = document.getElementById("avatar-img");
         var closeButton = document.getElementsByClassName("close")[0];
 
-        // Открытие модального окна и установка изображения
+        // откр
         avatarImg.onclick = function() {
             modal.style.display = "block";
             modalImg.src = this.src;
         }
 
-        // Закрытие модального окна при клике на кнопку "close"
+        // закрыть "close"
         closeButton.onclick = function() {
             modal.style.display = "none";
         }
 
-        // Закрытие модального окна при клике вне его области
+        // закрыть прин нажатии где угодно 
         window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display = "none";
             }
         }
     </script>
+ </div>
+
 
     
     <div class="container-fluid">
@@ -271,39 +208,6 @@
                 <p class="mt-20">Think of me as a tech enthusiast with an artist's eye and a problem-solver's mind. I'm on an exciting journey from backend mastery to full-stack development, constantly learning and pushing boundaries. Like code that evolves, I'm always moving forward, ready to turn innovative ideas into reality.</p>
                 <p class="mt-20">Let's build something extraordinary together!</p>
                
-
-           <!-- <button class="btn btn-outline-danger"><a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download></i>Download My CV</button>  -->     
-
-      <!--  04,11 work    <a href="/CV_ELMAZ_DZHELIANCHYK.pdf" download style="text-decoration: none; color: inherit;">
-                <button class="btn btn-outline-danger">
-                  Download My CV
-                </button>
-              </a> --> 
-
-               <!-- its all works in mozila / in chrome no
-              <a href="CV_Elmaz_Dzhelianchyk.pdf" download>
-                <button class="btn btn-outline-danger">Download My CV</button>
-              </a>
-              
-              <a href="CV_Elmaz_Dzhelianchyk.pdf" download class="btn btn-outline-danger">
-                Download My CV
-              </a>
-
-               -->
-
-           <!-- doesnt work in chrome , cause name pdf    <a href="CV_Elmaz_Dzhelianchyk.pdf" download class="btn btn-outline-danger" onclick="event.preventDefault(); downloadPDF('CV_Elmaz_Dzhelianchyk.pdf')">
-                Download My CV
-            </a>
-            <script>
-            function downloadPDF(url) {
-                const link = document.createElement('a');
-                link.href = url;
-                link.download = url.split('/').pop(); // Устанавливает имя файла на основе URL
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }
-            </script> -->
             
             <a href="#" class="btn btn-outline-danger" onclick="openAndDownloadPDF('CV_ELMAZ_DZHELIANCHYK.pdf')">
                 Open and Download My CV
@@ -311,34 +215,19 @@
             
             <script>
             function openAndDownloadPDF(url) {
-                // Открывает файл в новой вкладке
+                // открывает во вкладке 
                 window.open(url, '_blank');
             
-                // Инициирует скачивание
+                //  скачивает 
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = url.split('/').pop(); // Устанавливает имя файла
+                link.download = url.split('/').pop(); // установка  имя файла
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
             }
             </script>
-            
 
-<!-- this one  just open 
-<a href="https://9elmaz9.github.io/elmaz_dzhelianchyk/CV_ELMAZ_DZHELIANCHYK.pdf" target="_blank">
-Open My </a> -->
-            
-              <!--  its work
-
-              <a href="CV_Elmaz_Dzhelianchyk.pdf" download>
-                <button class="btn btn-outline-danger">Download My CV</button>
-              </a>
-              
-                    <button class="btn btn-outline-danger">
-                        <a href="/CV_Elmaz_Dzhelianchyk.pdf" download style="text-decoration: none; color: inherit;">Download My CV</a>
-                      </button>
-                    -->
             </div>
 
 
@@ -351,15 +240,10 @@ Open My </a> -->
                     <li><span>Phone</span> : + 32 479 40 88 96</li>
                     <li><span>Skype</span> : Elmaz Dzhelianchyk </li>
                     <li><span>Address</span> :  9700  Belgium</li>
-                  
-
-
                 </ul>
 
                 
                 <ul class="social-icons pt-3">
-                   <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
-    
                    <li class="social-item"><a class="social-link text-primary" href="https://www.linkedin.com/in/elmaz-dzhelianchyk/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>  <!-- add linkedin here -->
                     <li class="social-item"><a class="social-link text-primary" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link text-primary" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
@@ -400,8 +284,7 @@ Open My </a> -->
             </div>
         </div>
     </div>
-
-                  
+       
 
     <!--Resume Section-->
     <section class="section" id="resume">
@@ -419,18 +302,16 @@ Open My </a> -->
                         <div class="card-body">
 
                             <h6 class="title text-danger">2023 - Present</h6>
-                            <P>ASPIRING JAVA DEVELOPER </P>
-                            <P class="subtitle"> Currently fully immersed in Java development, advancing my skills through hands-on projects and continuous learning. I am working on building robust applications using technologies such as Spring Boot and RESTful services. This active engagement is expanding my expertise in back-end development, problem-solving, and application design, allowing me to contribute effectively to the tech industry. I am motivated by my passion for continuous learning and committed to staying at the forefront of modern software development.</P>
+                            <P>DEVELOPING FULL-STACK ENGINEER</P>
+                            <P class="subtitle">Currently focused on full-stack development, working with Java, Spring Boot, Angular, and Docker. I am developing skills in database management, clean code practices, and automated testing to create scalable, maintainable applications. Committed to continuous learning and building a strong foundation in modern software development.</P>
+                            <!-- Currently fully immersed in Java development, advancing my skills through hands-on projects and continuous learning. I am working on building robust applications using technologies such as Spring Boot and RESTful services. This active engagement is expanding my expertise in back-end development, problem-solving, and application design, allowing me to contribute effectively to the tech industry. I am motivated by my passion for continuous learning and committed to staying at the forefront of modern software development.
+                             2,Currently focused on becoming a comprehensive full-stack developer, working with both front-end and back-end technologies. My projects involve Java, Spring Boot, and RESTful APIs for robust backend solutions, alongside Angular for dynamic, responsive front-end development. I'm also using Docker to enable efficient, containerized deployments, which enhances scalability. Additionally, I am gaining hands-on experience in database management, clean code practices, and automated testing to ensure reliable and maintainable applications. Driven by a passion for continuous learning, I am building a strong foundation in full-stack development and am eager to contribute these skills to the tech industry.-->
                             <hr>
-                            <!-- 
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Front-end Developer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                            <hr>-->
                             <h6 class="title text-danger">2014 - 2022</h6>
                             <P>DIRECTOR OF OPERATIONS MANAGEMENT</P>
-                            <P class="subtitle">Experienced leader in the restaurant and hospitality industry with 8 years of expertise in operations management. Successfully led teams, launched new establishments, including the most recent one ranked in the top 20 best restaurants in Kyiv, Ukraine, and achieved high customer satisfaction. Skilled in staff coordination, workflow optimization, and strategic planning to drive operational excellence.</P>
-                            <!-- Under my leadership, teams consistently upheld high service standards, fostering customer satisfaction. Through proactive personnel management, I promoted effective teamwork and employee motivation.
+                            <P class="subtitle">My responsibilities included developing and implementing operational strategies, managing daily activities, and optimizing processes for quality and efficiency. With 8 years of experience in the restaurant and hospitality industry, I successfully led teams, launched new establishments—including one ranked among Kyiv’s top 20 restaurants—and consistently achieved high customer satisfaction. Skilled in financial management, staff coordination, and strategic planning to drive operational excellence and align goals with executive leadership.</P>
+                            <!-- 1:<Experienced leader in the restaurant and hospitality industry with 8 years of expertise in operations management. Successfully led teams, launched new establishments, including the most recent one ranked in the top 20 best restaurants in Kyiv, Ukraine, and achieved high customer satisfaction. Skilled in staff coordination, workflow optimization, and strategic planning to drive operational excellence.
+                           = 2:Under my leadership, teams consistently upheld high service standards, fostering customer satisfaction. Through proactive personnel management, I promoted effective teamwork and employee motivation.
                                 <P class="subtitle">Under my leadership, teams effectively operated in the service industry, ensuring a high level of service quality and customer satisfaction. I actively engaged in developing personnel management strategies, ensuring effective teamwork and employee motivation.</P>
                         -->
                             </div>
@@ -446,25 +327,17 @@ Open My </a> -->
                         </div> 
                         <div class="card-body">
                             <h6 class="title text-danger">2023 - September 2024</h6>
-                            <P>INTEC BRUSSEL </P>   <!-- here write anout spesialictic moment too -->
-                            <P>Java EE Developer </P> 
+                            <P>INTEC BRUSSEL </P>   
+                            <P>JAVA EE DEVELOPER</P> 
                             <P class="subtitle">Completed an intensive program focused on advanced Java EE development, gaining practical experience in building scalable enterprise applications. The course covered key technologies like Spring Framework and involved collaborative projects, enhancing my teamwork and problem-solving skills. This training solidified my expertise in Java development and prepared me for real-world challenges.</P>
                             <hr>
-                            <!--
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Diploma in Computer Engineering</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</P>
-                            <hr> -->
-
-                            <!-- HERE WRITE NAME UNIVERSITY AND WHAT KIND SPESSIALISH YOU ARE with skils short  -->
+                           
+                            <!--  UNIVERSITY  -->
                             <h6 class="title text-danger">2012-2016</h6>
                             <P> TRADE AND ECONOMICS UNIVERSITY . Crimea, Ukraine</P>
                             <P>Bachelor of Science in Hotel and Restaurant Management</P>
-                            <P class="subtitle">Graduated with a professional bachelor's degree, specializing in hotel and restaurant management. Developed strong leadership and organizational skills, with a focus on delivering exceptional guest experiences and driving operational excellence within the hospitality industry.</P>
-
-
-            
-                        
+                            <P class="subtitle">   Graduated with a professional bachelor’s degree, specializing in hotel and restaurant management. Gained a solid foundation in leadership and organizational skills, with a strong focus on operations management, team coordination, and process optimization to enhance efficiency and performance in the hospitality industry.</P>
+                            <!-- Graduated with a professional bachelor's degree, specializing in hotel and restaurant management. Developed strong leadership and organizational skills, with a focus on delivering exceptional guest experiences and driving operational excellence within the hospitality industry.-->                        
                         </div>
                     </div>
                 </div>
@@ -485,10 +358,6 @@ Open My </a> -->
                             <div class="progress mb-3">
                               <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <!--<h6>Hibernate</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div> -->
                             <h6>RESTful API Design</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -508,7 +377,6 @@ Open My </a> -->
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div> 
                             <br>
-                        
                         </div>
                     </div>
                     
@@ -533,7 +401,6 @@ Open My </a> -->
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            
                             <br>
                         </div>
                     </div>
@@ -595,10 +462,9 @@ Open My </a> -->
     </div>
 </section>
 
-       
 
-     <!-- Portfolio Section -->
-     <section class="section bg-custom-gray" id="portfolio">
+<!-- Portfolio Section -->
+<section class="section bg-custom-gray" id="portfolio">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
@@ -617,7 +483,7 @@ Open My </a> -->
                     </a>
                 </div>
 
-                <!-- succesful case -->
+                <!--  cases -->
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
@@ -637,11 +503,11 @@ Open My </a> -->
                 </div>
                 <style>
                     .github-link a {
-                        font-size: 50px; /* установите желаемый размер шрифта */
-                        color: white; /* установите желаемый цвет ссылки */
+                        font-size: 50px; 
+                        color: white; 
                     }
                 </style>
-        <!-- 2 -->
+                <!-- 2 -->
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
@@ -669,7 +535,7 @@ Open My </a> -->
                                     <h6 class="title">ANIMAL SHELTER</h6>
                                     <p class="subtitle">Java</p>
                                     <div class="github-link">
-                                   
+
                                         <a href="https://github.com/9elmaz9/ANIMAL_SHELTER" target="_blank" class="btn btn-outline-danger">GitHub</a>
                                     </div>
                                 </div>
@@ -855,7 +721,7 @@ Open My </a> -->
     </section>
     <!-- End of portfolio section -->
 
-    <!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
+    <!--Interests-->
     <section class="section" id="blog">
         <div class="container">
             <h2 class="mb-5">Current <span class="text-danger">Interests</span></h2>
@@ -872,15 +738,10 @@ Open My </a> -->
                             <a href="#"><i class="ti-comment"></i> 123</a>
                         </p>                       
                        <p>Sport is not just fun, it's a powerful tool for maintaining health and fitness. Regular workouts strengthen the heart, improve endurance, and enhance mood through the release of endorphins – the happiness hormones. Additionally, sports teach discipline and self-control, foster team spirit, and help develop social skills. Incorporate sports into your life, and you'll feel how both your physical and moral well-being grow.</p>
-<!--
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-                    -->
+
                         <a href="https://greatist.com/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>                                
-
-<!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
         
                 <div class="blog-card">
                     <div class="img-holder">
@@ -889,7 +750,6 @@ Open My </a> -->
                     <div class="content-holder">
                         <h6 class="title">The Impact of Volunteerism: Building a Better World</h6>
                         <p class="post-details">
-                        <!--     <a href="#">By: Admin</a>--> 
                             <a href="#"><i class="ti-heart text-danger"></i> 456</a>
                             <a href="#"><i class="ti-comment"></i> 264</a>
                         </p>
@@ -898,8 +758,6 @@ Open My </a> -->
                     </div>
                 </div>
 
-<!--  пока что времееннно вырезаю ьlater create here about- volunteer: art:sport-->
-
                 <div class="blog-card">
                     <div class="img-holder">
                         <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
@@ -907,7 +765,6 @@ Open My </a> -->
                     <div class="content-holder">
                         <h4 class="title">Inspiration in Creation</h4>
                         <p class="post-details">
-                       <!--     <a href="#">By: Admin</a> -->
                             <a href="#"><i class="ti-heart text-danger"></i> 431</a>
                             <a href="#"><i class="ti-comment"></i> 312</a>
                         </p>
@@ -919,7 +776,7 @@ Open My </a> -->
         </div>
     </section>
    
-  
+<!-- CONTACT ME -->
 
     <div class="section contact" id="contact" style="background-image: url(headerr.jpg)">
         <div class="container">
@@ -976,50 +833,8 @@ Open My </a> -->
             });
         </script>
 
-<!--
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ 32 479 40 88 96 </span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Oudenaarde :<br> <span class="text-muted">9700 Belgium</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">dzhelianchykelmaz@gmail.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
-                    </div>
-                </div>
-            </div>
 
-       -->
-      
-      
-
+<!-- footer -->
        <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
@@ -1027,9 +842,9 @@ Open My </a> -->
             </p>
         </div>
     </footer>
+<!-- end futter -->
 
     <style>
-
 
         @media only screen and (max-width: 768px) {
             .header .header-content h1 {
@@ -1066,7 +881,6 @@ Open My </a> -->
     </style>
 
 
-
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -1078,7 +892,6 @@ Open My </a> -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     
     
-    <!-- ED js -->
     <script src="assets/js/elmaz.js"></script>
 
 </body>

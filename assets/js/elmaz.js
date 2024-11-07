@@ -15,42 +15,6 @@ typeText();
 
 
 
-
-
-
-
-
-
-/*
-$(document).ready(function(){
-  // При нажатии на кнопку "Подробнее"
-  $('.portfolio-container').on('click', '.btn-details', function() {
-      var description = $(this).data('description'); // Получаем описание проекта
-      var githubLink = $(this).data('github'); // Получаем ссылку на GitHub
-
-      // Обновляем содержимое модального окна
-      $('#projectDescription').text(description);
-      $('#githubLink').attr('href', githubLink);
-
-      // Открываем модальное окно
-      $('#portfolioModal').modal('show');
-  });
-});
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
 // smooth scroll
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
@@ -189,58 +153,5 @@ function initMap() {
     });
 }
 
-/*
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-  event.preventDefault();
-  var form = this;
-  
-  // Здесь можно добавить код для отправки данных формы на сервер
-  // Например, использовать AJAX для отправки данных на сервер
-  
-  // После успешной отправки формы, показываем сообщение "Your message has been sent. Thank you!"
-  document.getElementById("sent-message").style.display = "block";
-  
-  // Затем скрываем сообщение через 5 секунд
-  setTimeout(function() {
-      document.getElementById("sent-message").style.display = "none";
-  }, 5000); // 5000 миллисекунд = 5 секунд
-});
 
-*/
-
-/*
-function sendMessage() {
-  var name = encodeURIComponent(document.getElementById("name").value);
-  var email = encodeURIComponent(document.getElementById("email").value);
-  var message = encodeURIComponent(document.getElementById("message").value);
-
-  var xhr = new XMLHttpRequest();
-  xhr.open("POST", "send_email.php", true);
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-          // Действия при успешной отправке
-          alert("Your message has been sent successfully!");
-      } else {
-          // Действия при ошибке отправки
-          alert("Sorry, something went wrong. Please try again later.");
-      }
-  };
-  var data = "name=" + name + "&email=" + email + "&message=" + message;
-  xhr.send(data);
-   */
-
-
-/*
-  let map;
-
-async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-}
-
-initMap();*/
+// перенос 
