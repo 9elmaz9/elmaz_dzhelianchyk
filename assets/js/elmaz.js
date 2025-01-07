@@ -1,5 +1,5 @@
 var typedText = document.querySelector('.typed-text-output');
-var textToType = 'Java Developer';
+var textToType = 'Software Developer';
 var index = 0;
 
 function typeText() {
