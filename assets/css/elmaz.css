@@ -11867,3 +11867,18 @@ pre .code {
   margin: 0 auto;
   display: inline-block;
 }
+
+.skill-box i {
+  color: #ffcccc; /* Ярко-розовый (можно изменить) */
+  font-size: 1.5em; /* Увеличивает размер иконок */
+  margin-right: 10px; /* Добавляет отступ справа от текста */
+}
+.skill-box1 i {
+  color: #ffcccc; /* Ярко-розовый (можно изменить) */
+  font-size: 1.5em; /* Увеличивает размер иконок */
+  margin-right: 10px; /* Добавляет отступ справа от текста */
+}
+.skill-box1 p {
+  margin-bottom: 5px; /* Уменьшает отступ между строками */
+  line-height: 1.6; /* Делает текст более компактным, но читаемым */
+}
